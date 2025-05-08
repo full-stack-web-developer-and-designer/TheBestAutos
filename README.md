@@ -1,4 +1,4 @@
-# PHP-one page site
+# The Best Autos
 This repository contains a simple PHP website for displaying cars with the ability to choose payment options with credit facilities and calculate interest with user-defined functions.
 
 This project is done with object-oriented PHP.
