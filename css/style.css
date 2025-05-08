@@ -1,0 +1,344 @@
+/* Cascading stylesheet for the web page "The Best Autos"
+   Created by Mirnes Glamočić
+   Copyright (C) 2025 */
+
+   a {
+    color: #066FFE;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:disabled {
+    color: grey
+  }
+  
+  body {
+    background-color: #e7b529;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .centered {
+    text-align: center;
+  }
+  
+  .data-label {
+    color: rgb(73, 73, 73);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: regular;
+  }
+  
+  .right-aligned {
+    text-align: right;
+  }
+  
+  .slogan, .home-page{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .vehicle-engine {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .vehicle-hr {
+    margin-bottom: 0.3rem;
+    margin-top: 0;
+  }
+  
+  .vehicle-make {
+    color: rgb(22, 52, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 90%;
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+  }
+  
+  .vehicle-mileage {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .vehicle-model {
+    color: rgb(21, 112, 148);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 90%;
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+    padding-left: 5rem;
+  }
+  
+  .vehicle-options {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .vehicle-price {
+    color: rgb(247, 72, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .vehicle-year {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .vehicle-table {
+    margin-bottom: 2rem;
+    max-width: 760px;
+    padding-right: 2rem;
+    width: 100%;
+  }
+  
+  .vehicle-table, .vehicle-table td {
+    border-collapse: collapse;
+  }
+  
+  .vehicle-table th, .vehicle-table td {
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 0;
+  }
+  
+  .outer-div {
+    margin: auto;
+    max-width: 95%;
+    text-align: left;
+  }
+  
+  .top-aligned {
+    vertical-align: top;
+  }
+  
+  .thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 8rem;
+  }
+  /* footer */
+  .footer_comma {
+    display: none;
+}
+br.none {
+  display: none;
+}
+  a.social-icon {
+    margin-left: 20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  svg.social-icon {
+    width: 30px;
+    height: 30px;
+    background: #e7b529;
+  }
+  .social-icon:hover {
+      color: #e7b529;
+      background: #fff;
+  }
+  a.social-icon:hover #linkedin,
+  a.social-icon:hover #github,
+  a.social-icon:hover #codepen{
+    fill: #e7b529;
+  }
+  /* payment-plan */
+  a {
+  color: #066FFE;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:disabled {
+  color: grey
+}
+
+body {
+  background-color: #e7b529;
+  overflow-x: hidden;
+}
+
+.centered {
+  text-align: center;
+}
+
+.content-area {
+  text-align: center;
+}
+
+.focal-point {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hero {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 24rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.data-label {
+  color: rgb(73, 73, 73);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: regular;
+}
+
+.data-item {
+  color: rgb(199, 21, 21);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.short-line {
+  border: 3px solid green;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.vehicle-hr {
+  margin-bottom: 0.3rem;
+  margin-top: 0;
+  width: 50%;
+}
+
+.vehicle-make {
+  color: rgb(22, 52, 136);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 90%;
+  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+}
+
+.vehicle-mileage {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.vehicle-model {
+  color: rgb(21, 112, 148);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 90%;
+  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+  padding-left: 5rem;
+}
+
+.vehicle-price {
+  color: rgb(247, 72, 72);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.vehicle-year {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+  /* footer */
+  a.social-icon {
+    margin-left: 20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  svg.social-icon {
+    width: 30px;
+    height: 30px;
+    background: #e7b529;
+  }
+  .social-icon:hover {
+      color: #e7b529;
+      background: #fff;
+  }
+  a.social-icon:hover #linkedin,
+  a.social-icon:hover #github,
+  a.social-icon:hover #codepen{
+    fill: #e7b529;
+  }
+
+  @media screen and (max-width: 650px) {
+    .vehicle-table td {
+      display: block;
+      text-align: center;
+  }
+  tbody {
+    display: table-caption;
+  }
+  .vehicle-hr {
+    width: 100%;
+  }
+    /* footer */
+    br.none {
+      display: block;
+    }
+    svg.social-icon {
+      margin-top: 20px;
+      margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* footer */
+  #footer_info {
+    display: block;
+    padding-top: 20px;
+}
+  #none {
+    display: none;
+  }
+  br.none {
+    display: block;
+  }
+  svg.social-icon {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+}
